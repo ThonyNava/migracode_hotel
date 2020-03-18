@@ -122,8 +122,70 @@
 
     <h1 class="my-4">Welcome to Modern Business</h1>
 
+    <!-- Features Section -->
+    <div class="row mb-4">
+      <div class="col-lg-6">
+        <form>
+          <div class="form-group">
+            <label for="inputEmail4">Search</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="City">
+          </div>
+          <div class="form-group">
+            <label for="inputPassword4">Entry date</label>
+            <input type="date" class="form-control" id="inputEntryDate" placeholder="MM/DD/YYYY">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Departure date</label>
+            <input type="date" class="form-control" id="inputDepartureDate" placeholder="MM/DD/YYYY">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">How many people?</label>
+            <select type="text" class="form-control" id="inputAmountOfPeople" placeholder="1 adult">
+              <option selected>1 adult</option>
+              <option>2 adult</option>
+              <option>3 adult</option>
+              <option>4 adult</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <!-- <label for="inputCity">City</label> -->
+              <select type="text" class="form-control" id="inputCity" placeholder="1 adult">
+                <option selected>Without children</option>
+                <option>1 child</option>
+                <option>2 children</option>
+                <option>3 or more children</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <!-- <label for="inputState">State</label> -->
+              <select id="inputState" class="form-control" placeholder="1 adult">
+                <option selected>1 bedroom</option>
+                <option>2 rooms</option>
+                <option>3 rooms</option>
+                <option>4 rooms</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                I travel for work reasons 🛄
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+      </div>
+    </div>
+    <!-- /.row -->
+
     <!-- Marketing Icons Section -->
-    <div class="row">
+    <div class="row mb-4">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
           <h4 class="card-header">Card Title</h4>
@@ -233,28 +295,6 @@
     </div>
     <!-- /.row -->
 
-    <!-- Features Section -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>Modern Business Features</h2>
-        <p>The Modern Business template by Start Bootstrap includes:</p>
-        <ul>
-          <li>
-            <strong>Bootstrap v4</strong>
-          </li>
-          <li>jQuery</li>
-          <li>Font Awesome</li>
-          <li>Working contact form with validation</li>
-          <li>Unstyled page elements for easy customization</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-      </div>
-      <div class="col-lg-6">
-        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
-      </div>
-    </div>
-    <!-- /.row -->
-
     <hr>
 
     <!-- Call to Action Section -->
@@ -273,7 +313,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Thony Nava 2020</p>
     </div>
     <!-- /.container -->
   </footer>
